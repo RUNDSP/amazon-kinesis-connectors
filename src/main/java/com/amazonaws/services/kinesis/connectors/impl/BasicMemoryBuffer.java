@@ -34,8 +34,8 @@ public class BasicMemoryBuffer<T> implements IBuffer<T> {
 
     private final long bytesPerFlush;
     private final long numMessagesToBuffer;
-    private final List<T> buffer;
-    private final AtomicLong byteCount;
+    protected final List<T> buffer;
+    protected final AtomicLong byteCount;
 
     private String firstSequenceNumber;
     private String lastSequenceNumber;

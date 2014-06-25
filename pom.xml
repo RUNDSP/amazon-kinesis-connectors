@@ -6,7 +6,7 @@
     <artifactId>amazon-kinesis-connector</artifactId>
     <packaging>jar</packaging>
     <name>Amazon Kinesis Connector Library for Java</name>
-    <version>1.0.0</version>
+    <version>1.0.1-RUNDSP</version>
     <description>
     </description>
     <url>https://aws.amazon.com/kinesis</url>
